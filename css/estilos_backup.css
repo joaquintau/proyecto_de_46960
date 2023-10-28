@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+.cabecera{
+    background-color: #BA94D1;
+    height: 27vh;    
+}
+.main{
+    background-color: #F2CD5C;
+}
+.footer{
+    background-color: #FBFACD;
+}
+.titulos{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.subsubtitulos{
+    font-size: 1.5 rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.footer{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.listaNav{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style:oblique;
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    align-items: center;
+    column-gap: 5px;
+    text-align: center;
+    height: 0px
+}
+.linkNav{
+    text-decoration:none;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.linkNav:hover{
+    color: #27005D;
+}
+.linkNav:hover{
+    background-color: #F2CD5C;
+    color: #27005D;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.listaNav li a{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 90%;
+    width: 200px;
+    background-color: #27005D;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
+.listaNav li a:active{
+    border: 2px solid #BA94D1;
+    background-color: #F2CD5C;
+    border: 2px solid #27005D;
+}
+.listas{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+.linkLista{
+    text-decoration: none;
+}
+.tabla{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.linkEntradas{
+
+    text-decoration: none;
+    color: black;
+    border-bottom: black;
+}
+.cajaEntradas{
+    border-bottom: black;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: #F2CD5C;
+}
+.logo{
+width: 12vh;
+height: 12vh;
+margin-top: 10px;
+}
+.entradas{
+    border: 2px solid black;
+    box-shadow: -3px 2px 26px 7px rgba(0,0,0,0.36);
+    -webkit-box-shadow: -3px 2px 26px 7px rgba(0,0,0,0.36);
+    -moz-box-shadow: -3px 2px 26px 7px rgba(0,0,0,0.36);
+    margin: 10px;
+}
+.wsp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 247, 95);
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
+}
+.fotoInstagram{
+    width: 40px;
+    height: 40px;
+}
+.fotoHamilton{
+
+    width: 600px;
+    height: 500px;
+    margin-left: 10px;
+}
+.video{
+    margin-left: 10px;
+}
+.fotoHamiltonEntrada{
+
+    padding-left: 10px;
+}
+.fotoTeatro{
+    width:550px;
+    height:400px;
+    padding-left: 10px;
+}
+.entradaTeatro{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800px;
+}
+.fotoTeatroDentro{
+    width: 500px;
+    height: 400px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.subtitulos{
+    font-size: 2.5rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.navMain a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.subtituloEntrada{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #fbfacdd3;
+    width: 400px;
+    height: 40px;
+}
+.fotoEntrada{
+    width: 640px;
+    height: 360px;
+    margin-left: 10px;
+}
+.parrafoObras{
+    width: 900px;
+    margin-left: 50px;
+    font-weight: 600;
+    background-color: #BA94D1;
+    color:#27005D;
+}
+.subtitulosObras{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.diseñoParrafoObras{
+    background-color: #FBFACD;
+    width: 900px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.fotoHeathers{
+    width: 375px;
+    height: 250px;
+    margin: 10px;   
+}
+.fotoHeathers2{
+    width: 420px;
+    height: 250px;
+    margin: 10px;   
+}
+.fondoWsp{
+    background-color: rgb(237, 248, 85);
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    right: 75px;
+    bottom: 35px;
+}
+.fotoX{
+    width: 65px;
+    height: 43px;
+}
+.fotoFacebook{
+    width: 45px;
+    height: 40px;
+}
+footer{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.contenidoFooter{
+ padding-top: 20px;
+}
+.tablaHeathers{
+    background-color: #BA94D1;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px black;
+}
+.subtitulosTabla{
+    margin-left: 10px;
+}
+.contenidoTabla{
+    border: solid 1px black;
+    background-color: #FBFACD;
+}
+.subtituloLista{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contenidoLista{
+    margin-bottom: 5px;
+}
+.ul{
+    background-color: #FBFACD;
+    width: 20vh;
+    margin-left: 10px;
+}
+.videoHamilton{
+    margin-left: 10px;
+}
+.divSubirFoto{
+    margin-left: 10px;
+}
+.inputHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 10px;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+.anclaLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+}
+.seccionGaleria{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.fotoGaleria{
+    width: 500px;
+    height: 400px;
+}
+.fotoGaleria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
