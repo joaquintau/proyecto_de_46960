@@ -10,25 +10,33 @@
 </head>
 <body>
     <header class="cabecera">
-        <div>
-            <a class= "anclaLogo" href="../index.html">
-                <img class="logo" src="../assets/img/logo.png" alt="logoPaginaWebMascarasDeTeatro">
-            </a>
-            <p class= "anclaLogo">Theatre Kid Now</p>
-            </div>
-            <nav class="navPrincipal">
-                <div class="inputHeader">
-                <input type="search" id="buscador">
-                <input type="button" id="buscador" value="Buscar...">
-                </div>
-                <ul class="listaNav">
-                    <li><a class="linkNav" href="../index.html">Inicio</a></li>
-                    <li><a class="linkNav" href="./que estamos haciendo.html">¿Qué estamos haciendo?</a></li>
-                    <li><a class="linkNav" href="./nuestras obras.html">Nuestras Obras</a></li>
-                    <li><a class="linkNav" href="./galeria.html">Baúl de recuerdos</a></li>
-                    <li><a class="linkNav" href="./contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bgVioleta">
+            <div class="container">
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-dark w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/que estamos haciendo.html">¿Qué estamos haciendo?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/nuestras obras.html">Nuestras obras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/galeria.html">Baúl de recuerdos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
                 </ul>
-            </nav>    
+            </div>
+            </div>
+        </nav>
     </header>
     <main class="main">
         <h1 class="titulos">Nuestras Obras</h1>
@@ -183,20 +191,18 @@
                 </table>
                 <iframe class="videoHamilton" width="1120" height="630" src="https://www.youtube.com/embed/DSCKfXpAGHc?si=eDeWs5OG07xHzh8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </main>    
-    <footer class="footer">
-        <section>
+    <footer class="container-fluid">
+        <section class="contenidoFooter">
             <label for="infomail">Recibe las últimas noticias en tu casilla de E-mail</label>
             <input type="email" id="infomail" name="infomail">
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
+            <input type="submit" value="Enviar">
         </section>
-        <section>
-            <a href="https://www.instagram.com/taujoaquin/" target="_blank"><img class="fotoInstagram" src="../assets/img/instagram logo.png" alt="logoInstagram"></a>
-            <a href="https://twitter.com/pibardito" target="_blank"><img class="fotoX" src="../assets/img/xlogo.png" alt="logoDeX"></a>
-            <a href="https://www.facebook.com/joako.tau/" target="_blank"><img class="fotoFacebook" src="../assets/img/facebook logo.png" alt="logoFacebook"></a>
+        <section class="redesSociales">
+        <a href="https://www.instagram.com/taujoaquin/" target="_blank"><img class="fotoInstagram" src="../assets/img/instagram logo.png" alt="logoInstagram"></a>
+        <a href="https://twitter.com/pibardito" target="_blank"><img class="fotoX" src="../assets/img/xlogo.png" alt="logoDeX"></a>
+        <a href="https://www.facebook.com/joako.tau/" target="_blank"><img class="fotoFacebook" src="../assets/img/facebook logo.png" alt="logoFacebook"></a>
         </section>
-        <section>
+        <section class="contenidoFooter">
             <a href="">Términos y condiciones</a>
             <a href="">Políticas de privacidad</a>
         </section>

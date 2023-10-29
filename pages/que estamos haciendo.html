@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TKN</title>
-        <link rel="shortcut icon" href="../favicon.ico">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKN</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="cabecera">        
+    <header class="cabecera">
         <nav class="navbar navbar-expand-lg navbar-dark bgVioleta">
             <div class="container">
-            <a class="navbar-brand" href="./index.html"><img class="logo" src="./assets/img/logo.png" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-dark w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./pages/que estamos haciendo.html">¿Qué estamos haciendo?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/nuestras obras.html">Nuestras obras</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/galeria.html">Baúl de recuerdos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                </li>
-                </ul>
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-dark w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/que estamos haciendo.html">¿Qué estamos haciendo?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nuestras obras.html">Nuestras obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/galeria.html">Baúl de recuerdos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            </div>
-        </nav>          
+        </nav>            
     </header>
-    <main class="main">
+    <main class="main container-fluid">
         <h1 class="titulos"> ¿Qué estamos haciendo?</h1>
         <p class="parrafoObras">En Theatre Kid Now todos los años elegimos hacer 3 obras traídas desde Broadway, West End o incluso desde acá, Argentina, para que todos aquellos quienes deseen poder ponerse en la piel de su personaje favorito puedan cumplir su sueño.</p>
         <section>
             <h2 class="subtitulosObras">Heathers</h2>
             <p class="diseñoParrafoObras">Es un musical con música, letras y libreto por Laurence O'Keefe y Kevin Murphy, basado en la película de 1988 con el mismo nombre escrita por Daniel Waters. La trama se centra en Veronica Sawyer, una estudiante del último año de secundaria en el Instituto Westerburg. Ella, junto con su amiga Martha Dunnstock, parecen ser las únicas que tratan bien al resto de las personas. Pero todo cambia cuando Veronica se une al grupo de las Heathers y se enamora de JD.</p>
-            <div class="divFotos">
-                <img class="fotoHeathers" src="../assets/img/foto heathers 1.jpg" alt="fotoEscenaHeathersUno">
-                <img class="fotoHeathers" src="../assets/img/foto heathers 2.jpg" alt="fotoEscenaHeathersDos">
-                <img class="fotoHeathers2" src="../assets/img/foto heathers 3.jpg" alt="fotoEscenaHeathers3">
-            </div>
-            </section>
-            <h3 class="subtitulosTabla">Kurt Cast</h3>
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/img/foto heathers 1.jpg" class="d-block w-100" alt="fotoEscenaHeathersUno">
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../assets/img/foto heathers 2.jpg" class="d-block w-100" alt="fotoEscenaHeathersDos">
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../assets/img/foto heathers 3.jpg" class="d-block w-100" alt="fotoEscenaHeathersTres">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section>
+            <h3 class="subtitulosTabla kurtCast">Kurt Cast</h3>
             <h4 class="subtitulosTabla">Staff</h4>
-            <table class="tablaHeathers">
+            <table class="tablaHeathers tablaUno">
                 <tr>
                     <td class="contenidoTabla">Rol</td>
                     <td class="contenidoTabla">Nombre</td>
@@ -122,82 +144,81 @@
                         <td class="contenidoTabla">Camila Cerini</td>
                     </tr>
                 </table>
-
-        </section>
-        </section>
-        <h3 class="subtitulosTabla">Ram Cast</h3>
-        <h4 class="subtitulosTabla">Staff</h4>
-        <table class="tablaHeathers">
-            <tr class="dentroTabla">
-                <td class="contenidoTabla">Rol</td>
-                <td class="contenidoTabla">Nombre</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Directora</td>
-                <td class="contenidoTabla">Daiana Vera</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Directora Vocal</td>
-                <td class="contenidoTabla">Paula Reus</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Coreógrafa</td>
-                <td class="contenidoTabla">Yamila Iglesias</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Fotógrafa</td>
-                <td class="contenidoTabla">Fiorella Romay</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Iluminadora</td>
-                <td class="contenidoTabla">Daiana Vera</td>
-            </tr>
-        </table>
-        <section>
-            <h4 class="subtitulosTabla">Elenco</h4>
-        <table class="tablaHeathers">
-            <tr>
-                <td class="contenidoTabla">Personaje</td>
-                <td class="contenidoTabla">Actor/Actriz</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Veronica Sawyer</td>
-                <td class="contenidoTabla">Emilia Ferrari</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Jason Dean (JD)</td>
-                <td class="contenidoTabla">Matias Marastoni</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Heather Chandler</td>
-                <td class="contenidoTabla">Lucila Cascone</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Heather Duke</td>
-                <td class="contenidoTabla">Camila De Saint</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Heather Mcnamara</td>
-                <td class="contenidoTabla">Candela Martinez</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Ram Sweeney</td>
-                <td class="contenidoTabla">Tomas Acevedo</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Kurt Kelly</td>
-                <td class="contenidoTabla">Nicolas Mingrone</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Martha Dunnstock</td>
-                <td class="contenidoTabla">Barbara Ainsztain</td>
-            </tr>
-            <tr>
-                <td class="contenidoTabla">Miss Fleming</td>
-                <td class="contenidoTabla">Valentina Beym</td>
-            </tr>
-                </table>
             </section>
+            </section>
+                <h3 class="subtitulosTabla">Ram Cast</h3>
+                <h4 class="subtitulosTabla">Staff</h4>
+                    <table class="tablaHeathers">
+                    <tr class="dentroTabla">
+                        <td class="contenidoTabla">Rol</td>
+                        <td class="contenidoTabla">Nombre</td>
+                    </tr>
+                    <tr>
+                        <td class="contenidoTabla">Directora</td>
+                    <td class="contenidoTabla">Daiana Vera</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Directora Vocal</td>
+                    <td class="contenidoTabla">Paula Reus</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Coreógrafa</td>
+                    <td class="contenidoTabla">Yamila Iglesias</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Fotógrafa</td>
+                    <td class="contenidoTabla">Fiorella Romay</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Iluminadora</td>
+                    <td class="contenidoTabla">Daiana Vera</td>
+                </tr>
+            </table>
+            <section>
+                <h4 class="subtitulosTabla">Elenco</h4>
+            <table class="tablaHeathers">
+                <tr>
+                    <td class="contenidoTabla">Personaje</td>
+                    <td class="contenidoTabla">Actor/Actriz</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Veronica Sawyer</td>
+                    <td class="contenidoTabla">Emilia Ferrari</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Jason Dean (JD)</td>
+                    <td class="contenidoTabla">Matias Marastoni</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Heather Chandler</td>
+                    <td class="contenidoTabla">Lucila Cascone</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Heather Duke</td>
+                    <td class="contenidoTabla">Camila De Saint</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Heather Mcnamara</td>
+                    <td class="contenidoTabla">Candela Martinez</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Ram Sweeney</td>
+                    <td class="contenidoTabla">Tomas Acevedo</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Kurt Kelly</td>
+                    <td class="contenidoTabla">Nicolas Mingrone</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Martha Dunnstock</td>
+                    <td class="contenidoTabla">Barbara Ainsztain</td>
+                </tr>
+                <tr>
+                    <td class="contenidoTabla">Miss Fleming</td>
+                    <td class="contenidoTabla">Valentina Beym</td>
+                </tr>
+                    </table>
+                </section>
                 <h3 class="subtituloLista">Estreno</h3>
             <section>
                 <ul class="ul">
@@ -211,24 +232,24 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.345079929879!2d-58.387356223463506!3d-34.595434557062184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb8996374d9d%3A0x8a074c6907d8172!2sTeatro%20Regina!5e0!3m2!1ses!2sar!4v1697398483412!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
     </main>            
-    <footer class="footer">
-            <section>
-                <label for="infomail">Recibe las últimas noticias en tu casilla de E-mail</label>
-                <input type="email" id="infomail" name="infomail">
-                <input type="submit" value="Enviar">
-            </section>
-            <section>
-                <a href="https://www.instagram.com/taujoaquin/" target="_blank"><img class="fotoInstagram" src="../assets/img/instagram logo.png" alt="logoInstagram"></a>
-                <a href="https://twitter.com/pibardito" target="_blank"><img class="fotoX" src="../assets/img/xlogo.png" alt="logoDeX"></a>
-                <a href="https://www.facebook.com/joako.tau/" target="_blank"><img class="fotoFacebook" src="../assets/img/facebook logo.png" alt="logoFacebook"></a>
-            </section>
-            <section>
-                <a href="">Términos y condiciones</a>
-                <a href="">Políticas de privacidad</a>
-            </section>
-            <div class="fondoWsp">
-                <img class="wsp" src="../assets/img/logo whatsapp.png" alt="logoWhatsapp">                
-            </div>
+    <footer class="container-fluid">
+        <section class="contenidoFooter">
+            <label for="infomail">Recibe las últimas noticias en tu casilla de E-mail</label>
+            <input type="email" id="infomail" name="infomail">
+            <input type="submit" value="Enviar">
+        </section>
+        <section class="redesSociales">
+        <a href="https://www.instagram.com/taujoaquin/" target="_blank"><img class="fotoInstagram" src="../assets/img/instagram logo.png" alt="logoInstagram"></a>
+        <a href="https://twitter.com/pibardito" target="_blank"><img class="fotoX" src="../assets/img/xlogo.png" alt="logoDeX"></a>
+        <a href="https://www.facebook.com/joako.tau/" target="_blank"><img class="fotoFacebook" src="../assets/img/facebook logo.png" alt="logoFacebook"></a>
+        </section>
+        <section class="contenidoFooter">
+            <a href="">Términos y condiciones</a>
+            <a href="">Políticas de privacidad</a>
+        </section>
+        <div class="fondoWsp">
+            <img class="wsp" src="../assets/img/logo whatsapp.png" alt="logoWhatsapp">                
+        </div>
     </footer>
 
 

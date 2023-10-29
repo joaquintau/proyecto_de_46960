@@ -47,6 +47,9 @@ body{
         height: 360px;
         margin-left: 10px;
     }
+    .navMain{
+        padding-bottom: 40px;
+    }
     .navMain a{
         text-decoration: none;
         color: black;
@@ -60,8 +63,108 @@ body{
     background-color: #ba94d1c5;
     width: 400px;
     height: 40px;
-}
-.portadaDos{
-    top: 36px;
+    border: 2px solid #27005D;
     text-align: center;
+    position: relative;
+    left: 70px;
+}
+.bordeEntrada{
+    border: 3px solid #27005D;
+}
+footer{
+    background-color: #FBFACD;
+}
+.fotoInstagram{
+    width: 25px;
+    height:25px;
+}
+.fotoX{
+    width: 45px;
+    height: 30px;
+}
+.fotoFacebook{
+    width: 25px;
+    height:25px;
+}
+.contenidoFooter{
+    display: flex;
+    justify-content: center;
+}
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.wsp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 247, 95);
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
+}
+.fondoWsp{
+    background-color: rgb(237, 248, 85);
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    right: 75px;
+    bottom: 35px;
+}
+.subtitulosObras{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 800px;
+}
+.diseñoParrafoObras{
+    background-color: #FBFACD;
+    width: 900px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.carousel{
+    width: 750px;
+    height: 500px;
+    position: relative;
+    right: 550px;
+}
+.tablaHeathers{
+    background-color: #BA94D1;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px black;
+}
+.contenidoTabla{
+    border: solid 1px black;
+    background-color: #FBFACD;
+}
+.seccionGaleria{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.fotoGaleria{
+    width: 500px;
+    height: 400px;
+}
+.fotoGaleria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.divSubirFoto{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
