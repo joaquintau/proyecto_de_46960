@@ -1,0 +1,15 @@
+.cabecera{
+    border-bottom: 6px solid $color-terciario;
+    .bgVioleta{
+        background-color: $color-secundario;
+        .fBlanco{
+            color: white;
+        }
+    }
+}
+.logo{
+    width: 8vh;
+    height: 8vh;
+    position: relative;
+}
+

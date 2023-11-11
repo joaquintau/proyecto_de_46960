@@ -1,170 +1,185 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
-body{
-    background-color: #F2CD5C;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+
+body {
+  background-color: #F2CD5C;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
-.cabecera{
-    border-bottom: 6px solid #FBFACD;
+
+.cabecera {
+  border-bottom: 6px solid #FBFACD;
 }
-.logo{
-    width: 8vh;
-    height: 8vh;
-    position: relative;
+.cabecera .bgVioleta {
+  background-color: #27005D;
 }
-.bgVioleta{
-    background-color: #27005D;
+.cabecera .bgVioleta .fBlanco {
+  color: white;
 }
-.fBlanco{
-    color: white;
+
+.logo {
+  width: 8vh;
+  height: 8vh;
+  position: relative;
 }
-.titulos{
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding-left: 10px;
-    margin-top: 10px;}
-    .subtitulos{
-        font-size: 2.5rem;
-        font-family:'Montserrat', sans-serif;
-        font-weight: 600;
-        padding-left: 15px;
-    }
-    .parrafoObras{
-        width: 900px;
-        margin-left: 50px;
-        font-weight: 600;
-        background-color: #BA94D1;
-        color:#27005D;
-    }
-    .fotoEntrada{
-        width: 640px;
-        height: 360px;
-        margin-left: 10px;
-    }
-    .navMain{
-        padding-bottom: 40px;
-    }
-    .navMain a{
-        text-decoration: none;
-        color: black;
-    }
-    .subtituloEntrada{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    margin-left: 10px;
-    margin-top: 20px;
-    background-color: #ba94d1c5;
-    width: 400px;
-    height: 40px;
-    border: 2px solid #27005D;
-    text-align: center;
-    position: relative;
-    left: 70px;
+
+.titulos {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding-left: 10px;
+  margin-top: 10px;
 }
-.bordeEntrada{
-    border: 3px solid #27005D;
+
+.subtitulos {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-left: 15px;
 }
-footer{
-    background-color: #FBFACD;
+
+.parrafoObras {
+  width: 900px;
+  margin-left: 50px;
+  font-weight: 600;
+  background-color: #BA94D1;
+  color: #27005D;
 }
-.fotoInstagram{
-    width: 25px;
-    height:25px;
+
+.navMain {
+  padding-bottom: 40px;
 }
-.fotoX{
-    width: 45px;
-    height: 30px;
+.navMain .subtituloEntrada {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #BA94D1;
+  width: 500px;
+  height: 40px;
+  border: 2px solid #27005D;
+  text-align: center;
+  position: relative;
+  left: 70px;
 }
-.fotoFacebook{
-    width: 25px;
-    height:25px;
+.navMain .subtituloEntrada .bordeEntrada {
+  border: 3px solid #27005D;
 }
-.contenidoFooter{
-    display: flex;
-    justify-content: center;
+.navMain .fotoEntrada {
+  width: 640px;
+  height: 360px;
+  margin-left: 10px;
 }
-.redesSociales{
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
+
+.navMain a {
+  text-decoration: none;
+  color: black;
 }
-.wsp{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(231, 247, 95);
-    position: fixed;
-    right: 80px;
-    bottom: 40px;
+
+.subtitulosObras {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 800px;
 }
-.fondoWsp{
-    background-color: rgb(237, 248, 85);
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    position:fixed;
-    right: 75px;
-    bottom: 35px;
+
+.diseñoParrafoObras {
+  background-color: #FBFACD;
+  width: 900px;
+  font-weight: 600;
+  margin-left: 10px;
 }
-.subtitulosObras{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    margin-top: 20px;
-    margin-left: 10px;
-    font-style: italic;
-    text-decoration: underline;
-    font-weight: 800px;
+
+.carousel {
+  width: 750px;
+  height: 500px;
+  position: relative;
+  right: 550px;
 }
-.diseñoParrafoObras{
-    background-color: #FBFACD;
-    width: 900px;
-    font-weight: 600;
-    margin-left: 10px;
+
+.tablaHeathers {
+  background-color: #BA94D1;
+  margin: 10px;
+  text-align: center;
+  border: solid 2px black;
 }
-.carousel{
-    width: 750px;
-    height: 500px;
-    position: relative;
-    right: 550px;
+.tablaHeathers .contenidoTabla {
+  border: solid 1px black;
+  background-color: #FBFACD;
 }
-.tablaHeathers{
-    background-color: #BA94D1;
-    margin: 10px;
-    text-align: center;
-    border: solid 2px black;
+
+.seccionGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
-.contenidoTabla{
-    border: solid 1px black;
-    background-color: #FBFACD;
+.seccionGaleria .fotoGaleria {
+  width: 500px;
+  height: 400px;
 }
-.seccionGaleria{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+.seccionGaleria .fotoGaleria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.fotoGaleria{
-    width: 500px;
-    height: 400px;
+
+.divSubirFoto {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
 }
-.fotoGaleria img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+footer {
+  background-color: #FBFACD;
 }
-.divSubirFoto{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+footer .redesSociales {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
 }
+footer .redesSociales .fotoInstagram, footer .redesSociales .fotoFacebook {
+  width: 25px;
+  height: 25px;
+}
+footer .redesSociales .fotoX {
+  width: 45px;
+  height: 30px;
+}
+footer .contenidoFooter {
+  display: flex;
+  justify-content: center;
+}
+footer .wsp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(231, 247, 95);
+  position: fixed;
+  right: 80px;
+  bottom: 40px;
+}
+footer .fondoWsp {
+  background-color: rgb(237, 248, 85);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 75px;
+  bottom: 35px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

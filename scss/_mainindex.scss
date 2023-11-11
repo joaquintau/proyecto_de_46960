@@ -1,0 +1,51 @@
+.titulos{
+    font-size: 4rem;
+    font-family: $fuente-principal;
+    font-weight: 800;
+    padding-left: $espacio-10px;
+    margin-top: $espacio-10px;
+}
+    .subtitulos{
+        font-size: 2.5rem;
+        font-family:$fuente-principal;
+        font-weight: $grosor-fuente-comun;
+        padding-left: 15px;
+    }
+    .parrafoObras{
+        width: 900px;
+        margin-left: 50px;
+        font-weight: $grosor-fuente-comun;
+        background-color: $color-cuatro;
+        color:$color-secundario;
+    }
+   
+    .navMain{
+        padding-bottom: 40px;
+        .subtituloEntrada{
+            font-size: 2rem;
+            font-family: $fuente-principal;
+            font-weight: $grosor-fuente-comun;
+            margin-left: $espacio-10px;
+            margin-top: 20px;
+            background-color: $color-cuatro;
+            width: 500px;
+            height: 40px;
+            border: 2px solid $color-secundario;
+            text-align: center;
+            position: relative;
+            left: 70px;
+            .bordeEntrada{
+                border: 3px solid $color-secundario;
+            }
+        }
+        .fotoEntrada{
+            width: 640px;
+            height: 360px;
+            margin-left: $espacio-10px;
+        }
+    }
+    .navMain a{
+        text-decoration: $decoracion-ancla;
+        color: map-get($map: $estilo-ancla, $key: color);
+    }
+

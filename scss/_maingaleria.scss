@@ -1,0 +1,25 @@
+.seccionGaleria{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: $espacio-10px;
+    margin-bottom: $espacio-10px;
+    .fotoGaleria{
+        width: 500px;
+        height: 400px;
+        
+    }
+    .fotoGaleria img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.divSubirFoto{
+    display: flex;
+    justify-content: center;
+    padding-bottom: $espacio-10px;
+}
