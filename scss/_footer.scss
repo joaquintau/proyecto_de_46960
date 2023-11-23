@@ -1,16 +1,19 @@
 footer{
     background-color: $color-terciario;
+    padding-top: 10px;
     .redesSociales{
         display: flex;
         justify-content: center;
         padding-top: 5px;
+        column-gap: $espacio-10px;
+        margin-top: $espacio-10px;
+        margin-bottom: $espacio-10px;
         .fotoInstagram{
             width: 25px;
             height:25px;
         }
         .fotoX{
-            width: 45px;
-            height: 30px;
+            @extend .fotoInstagram;
         }
         .fotoFacebook{
             @extend .fotoInstagram;
@@ -18,7 +21,9 @@ footer{
     }
     .contenidoFooter{
         display: flex;
+        column-gap: $espacio-10px;
         justify-content: center;
+        
     }
     .wsp{
         width: 40px;

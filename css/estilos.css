@@ -22,6 +22,10 @@ body {
   color: white;
 }
 
+.nav-item:hover {
+  color: black;
+}
+
 .logo {
   width: 8vh;
   height: 8vh;
@@ -34,6 +38,8 @@ body {
   font-weight: 800;
   padding-left: 10px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .subtitulos {
@@ -41,14 +47,18 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   padding-left: 15px;
+  display: flex;
+  justify-content: center;
 }
 
-.parrafoObras {
+.parrafoIndex {
   width: 900px;
   margin-left: 50px;
   font-weight: 600;
   background-color: #BA94D1;
   color: #27005D;
+  position: relative;
+  left: 170px;
 }
 
 .navMain {
@@ -89,7 +99,20 @@ body {
   margin-left: 10px;
   font-style: italic;
   text-decoration: underline;
-  font-weight: 800px;
+  font-weight: 900px;
+  position: relative;
+  left: 500px;
+}
+
+.parrafoObras {
+  width: 900px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: 600;
+  background-color: #BA94D1;
+  color: #27005D;
+  position: relative;
+  left: 450px;
 }
 
 .diseñoParrafoObras {
@@ -97,13 +120,44 @@ body {
   width: 900px;
   font-weight: 600;
   margin-left: 10px;
+  position: relative;
+  left: 150px;
+}
+
+.cuerpoObrasUno {
+  display: flex;
+}
+.cuerpoObrasUno .kurtCast {
+  position: absolute;
+  left: 1475px;
+  bottom: 480px;
+  font-weight: 600;
+}
+.cuerpoObrasUno .staffKurt {
+  position: absolute;
+  left: 1365px;
+  bottom: 410px;
+  font-weight: 600;
+}
+.cuerpoObrasUno .elencoKurt {
+  position: absolute;
+  left: 1680px;
+  bottom: 410px;
+  font-weight: 600;
 }
 
 .carousel {
-  width: 750px;
-  height: 500px;
+  width: 1125px;
+  height: 750px;
   position: relative;
-  right: 550px;
+}
+
+.fotoTresHeathers {
+  height: 735px;
+}
+
+.seccionTabla {
+  display: flex;
 }
 
 .tablaHeathers {
@@ -118,7 +172,8 @@ body {
 }
 
 .seccionGaleria {
-  width: 90%;
+  width: 100%;
+  max-width: 1900px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -145,22 +200,23 @@ body {
 
 footer {
   background-color: #FBFACD;
+  padding-top: 10px;
 }
 footer .redesSociales {
   display: flex;
   justify-content: center;
   padding-top: 5px;
+  column-gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-footer .redesSociales .fotoInstagram, footer .redesSociales .fotoFacebook {
+footer .redesSociales .fotoInstagram, footer .redesSociales .fotoFacebook, footer .redesSociales .fotoX {
   width: 25px;
   height: 25px;
 }
-footer .redesSociales .fotoX {
-  width: 45px;
-  height: 30px;
-}
 footer .contenidoFooter {
   display: flex;
+  column-gap: 10px;
   justify-content: center;
 }
 footer .wsp {

@@ -5,19 +5,59 @@
     margin-left: $espacio-10px;
     font-style: italic;
     text-decoration: underline;
-    font-weight: 800px;
+    font-weight: 900px;
+    position: relative;
+    left: 500px;
+}
+.parrafoObras{
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: $grosor-fuente-comun;
+    background-color: $color-cuatro;
+    color:$color-secundario;
+    position: relative;
+    left: 450px;
 }
 .diseñoParrafoObras{
     background-color: $color-terciario;
     width: 900px;
     font-weight: $grosor-fuente-comun;
     margin-left: $espacio-10px;
+    position: relative;
+    left: 150px;
+}
+.cuerpoObrasUno{
+    display: flex;
+    .kurtCast{
+        position: absolute;
+        left: 1475px;
+        bottom: 480px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .staffKurt{
+        position: absolute;
+        left: 1365px;
+        bottom: 410px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .elencoKurt{
+        position: absolute;
+        left: 1680px;
+        bottom: 410px;
+        font-weight: $grosor-fuente-comun;
+    }
 }
 .carousel{
-    width: 750px;
-    height: 500px;
+    width: 1125px;
+    height: 750px;
     position: relative;
-    right: 550px;
+}
+.fotoTresHeathers{
+    height: 735px;
+}
+.seccionTabla {
+    display: flex;
 }
 .tablaHeathers{
     background-color: $color-cuatro;
