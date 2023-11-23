@@ -69,3 +69,36 @@
         background-color: $color-terciario;
     }
 }
+.cuerpoObrasDos{
+    display: flex;
+    margin-top: 200px;
+    .ramCast{
+        position: absolute;
+        left: 1475px;
+        top: 1350px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .staffRam{
+        position: absolute;
+        left: 1365px;
+        top: 1410px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .tablaStaffRam{
+        position: relative;
+        left: 350px;
+        
+    }
+    .elencoRam{
+        position: absolute;
+        left: 1680px;
+        top: 1410px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .tablaCastRam{
+        width: 345px;
+        height: 700px;
+        position: relative;
+        left: 350px;
+    }
+}

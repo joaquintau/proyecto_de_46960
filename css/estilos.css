@@ -171,6 +171,39 @@ body {
   background-color: #FBFACD;
 }
 
+.cuerpoObrasDos {
+  display: flex;
+  margin-top: 200px;
+}
+.cuerpoObrasDos .ramCast {
+  position: absolute;
+  left: 1475px;
+  top: 1350px;
+  font-weight: 600;
+}
+.cuerpoObrasDos .staffRam {
+  position: absolute;
+  left: 1365px;
+  top: 1410px;
+  font-weight: 600;
+}
+.cuerpoObrasDos .tablaStaffRam {
+  position: relative;
+  left: 350px;
+}
+.cuerpoObrasDos .elencoRam {
+  position: absolute;
+  left: 1680px;
+  top: 1410px;
+  font-weight: 600;
+}
+.cuerpoObrasDos .tablaCastRam {
+  width: 345px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
 .seccionGaleria {
   width: 100%;
   max-width: 1900px;
