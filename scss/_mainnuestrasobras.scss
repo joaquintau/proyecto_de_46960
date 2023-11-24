@@ -1,0 +1,82 @@
+.seccionNuestrasObrasUno{
+    display: flex;
+    margin-bottom: 100px;
+    .fotoHamiltonUno{
+        width: 1050px;
+        height: 670px;
+        margin-left: $espacio-10px;
+        margin-top: 40px;
+    }
+    .staffAlexander{
+        position: absolute;
+        left: 1225px;
+        top: 545px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .elencoAlexander{
+        position: absolute;
+        left: 1550px;
+        top: 545px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .tablaStaffAlexander{
+        position: absolute;
+        left: 1120px;
+        top: 570px;
+        height: 500px;
+    }
+    .tablaElencoAlexander{
+        position:absolute;
+        left: 1420px;
+        top: 570px;
+        height: 500px;
+    }
+    
+    }
+    .alexanderCast{
+        font-weight: $grosor-fuente-comun;
+        margin-left: 10px;    
+        }
+.phillipCast{
+    font-weight: $grosor-fuente-comun;
+    margin-left: $espacio-10px;
+}
+.seccionNuestrasObrasDos{
+    display: flex;
+    margin-bottom: 40px;
+    .fotoHamiltonDos{
+        width: 1050px;
+        height: 685px;
+        margin-left: $espacio-10px;
+        margin-top: 40px;
+    }
+    .staffPhillip{
+        position: absolute;
+        left: 1225px;
+        top: 1390px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .elencoPhillip{
+        position: absolute;
+        left: 1550px;
+        top: 1390px;
+        font-weight: $grosor-fuente-comun;
+    }
+    .tablaStaffPhillip{
+        position: absolute;
+        left: 1120px;
+        top: 1420px;
+        height: 500px;
+    }
+    .tablaElencoPhillip{
+        position: absolute;
+        left: 1420px;
+        top: 1420px;
+        height: 500px;
+    }
+}
+.videoHamilton{
+    position: relative;
+    left: 45vh;
+    margin-bottom: 40px;
+}

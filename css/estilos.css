@@ -92,9 +92,37 @@ body {
   color: black;
 }
 
+@media screen and (max-width: 600px) {
+  .titulos {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .subtitulos {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .parrafoIndex {
+    width: 400px;
+    font-weight: 600;
+    background-color: #BA94D1;
+    color: #27005D;
+    position: relative;
+    left: 15px;
+  }
+}
 .subtitulosObras {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
+  font-weight: 600;
   margin-top: 20px;
   margin-left: 10px;
   font-style: italic;
@@ -223,6 +251,92 @@ body {
   bottom: 100px;
 }
 
+.seccionNuestrasObrasUno {
+  display: flex;
+  margin-bottom: 100px;
+}
+.seccionNuestrasObrasUno .fotoHamiltonUno {
+  width: 1050px;
+  height: 670px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.seccionNuestrasObrasUno .staffAlexander {
+  position: absolute;
+  left: 1225px;
+  top: 545px;
+  font-weight: 600;
+}
+.seccionNuestrasObrasUno .elencoAlexander {
+  position: absolute;
+  left: 1550px;
+  top: 545px;
+  font-weight: 600;
+}
+.seccionNuestrasObrasUno .tablaStaffAlexander {
+  position: absolute;
+  left: 1120px;
+  top: 570px;
+  height: 500px;
+}
+.seccionNuestrasObrasUno .tablaElencoAlexander {
+  position: absolute;
+  left: 1420px;
+  top: 570px;
+  height: 500px;
+}
+
+.alexanderCast {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.phillipCast {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.seccionNuestrasObrasDos {
+  display: flex;
+  margin-bottom: 40px;
+}
+.seccionNuestrasObrasDos .fotoHamiltonDos {
+  width: 1050px;
+  height: 685px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.seccionNuestrasObrasDos .staffPhillip {
+  position: absolute;
+  left: 1225px;
+  top: 1390px;
+  font-weight: 600;
+}
+.seccionNuestrasObrasDos .elencoPhillip {
+  position: absolute;
+  left: 1550px;
+  top: 1390px;
+  font-weight: 600;
+}
+.seccionNuestrasObrasDos .tablaStaffPhillip {
+  position: absolute;
+  left: 1120px;
+  top: 1420px;
+  height: 500px;
+}
+.seccionNuestrasObrasDos .tablaElencoPhillip {
+  position: absolute;
+  left: 1420px;
+  top: 1420px;
+  height: 500px;
+}
+
+.videoHamilton {
+  position: relative;
+  left: 45vh;
+  margin-bottom: 40px;
+}
+
 .seccionGaleria {
   width: 100%;
   max-width: 1900px;
@@ -248,6 +362,24 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.pContacto {
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.botonContacto {
+  background-color: #BA94D1;
+  border-color: #27005D;
+  color: #27005D;
+  margin-bottom: 136px;
+}
+
+.botonContacto:hover {
+  background-color: #27005D;
+  border-color: #BA94D1;
 }
 
 footer {
@@ -288,6 +420,13 @@ footer .fondoWsp {
   position: fixed;
   right: 75px;
   bottom: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .contenidoFooter {
+    font-size: 1rem;
+    height: 25px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

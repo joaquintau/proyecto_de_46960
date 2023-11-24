@@ -1,0 +1,15 @@
+.pContacto{
+    font-weight: $grosor-fuente-comun;
+    margin-left: 10px;
+    font-size: medium;
+}
+.botonContacto{
+    background-color: $color-cuatro;
+    border-color: $color-secundario;
+    color: $color-secundario;
+    margin-bottom: 136px;
+}
+.botonContacto:hover{
+    background-color: $color-secundario;
+    border-color: $color-cuatro;
+}

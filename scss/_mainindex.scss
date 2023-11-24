@@ -55,3 +55,31 @@
         color: map-get($map: $estilo-ancla, $key: color);
     }
 
+@media screen and (max-width: 600px) {
+    .titulos{
+            font-size: 3rem;
+            font-family: $fuente-principal;
+            font-weight: 800;
+            padding-left: $espacio-10px;
+            margin-top: $espacio-10px;
+            display: flex;
+            justify-content: center;
+        
+    }
+    .subtitulos{
+        font-size: 2rem;
+        font-family:$fuente-principal;
+        font-weight: $grosor-fuente-comun;
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .parrafoIndex{
+        width: 400px;
+        font-weight: $grosor-fuente-comun;
+        background-color: $color-cuatro;
+        color:$color-secundario;
+        position: relative;
+        left: 15px;
+    }
+}

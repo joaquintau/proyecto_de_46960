@@ -45,7 +45,12 @@ footer{
     }
 }
 
-
+@media screen and (max-width:600px) {
+    .contenidoFooter{
+        font-size: 1rem;
+        height: 25px
+    }
+}
 
 
 
