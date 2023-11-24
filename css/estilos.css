@@ -204,6 +204,25 @@ body {
   left: 350px;
 }
 
+.subtituloLista {
+  font-weight: 600;
+  position: relative;
+  left: 80px;
+  bottom: 110px;
+}
+
+.ul {
+  position: relative;
+  left: -40px;
+  bottom: 50px;
+}
+
+.mapa {
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+
 .seccionGaleria {
   width: 100%;
   max-width: 1900px;
