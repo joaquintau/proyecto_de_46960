@@ -119,3 +119,128 @@
     left: 100px;
     bottom: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .titulos{
+        font-size: 2rem;
+    }
+    .parrafoObras{
+    width: 500px;
+    margin-top: 20px;
+    font-weight: $grosor-fuente-comun;
+    background-color: $color-cuatro;
+    color:$color-secundario;
+    position: relative;
+    left: 75px;  
+    }
+    .subtitulosObras{
+        font-family: $fuente-principal;
+        font-size: 2rem;
+        font-weight: $grosor-fuente-comun;
+        margin-top: 20px;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: 900px;
+        position: relative;
+        left: 290px;
+    }
+    .diseñoParrafoObras{
+        background-color: $color-terciario;
+        width: 500px;
+        font-weight: $grosor-fuente-comun;
+        margin-left: $espacio-10px;
+        position: relative;
+        left: 120px;
+    }
+    .cuerpoObrasUno{
+        display: inline;
+        .carousel{
+            width: 1125px;
+            height: 350px;
+            position: relative;
+            left: 0px;
+            .fotoTresHeathers{
+                height: 345px;
+            }
+        }
+        .kurtCast{
+            position: absolute;
+            left: 300px;
+            bottom: -200px;
+            font-weight: $grosor-fuente-comun;
+            }
+            .staffKurt{
+                position: absolute;
+                left: 160px;
+                bottom: -250px;
+                font-weight: $grosor-fuente-comun;
+            }
+            .elencoKurt{
+                position: absolute;
+                left: 460px;
+                bottom: -250px;
+                font-weight: $grosor-fuente-comun;
+            }
+        .tablaUno{
+            position: relative;
+            top: 164px;
+            left: 50px;
+        }
+        .tablaDos{
+            position: relative;
+            left: 330px;
+        }
+    }
+    .cuerpoObrasDos{
+        display: inline;
+        margin-top: 200px;
+        .ramCast{
+            position: absolute;
+            left: 300px;
+            top: 1400px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .staffRam{
+            position: absolute;
+            left: 160px;
+            top: 1450px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .tablaStaffRam{
+            position: relative;
+            left: 50px;
+            bottom: 500px;
+            
+        }
+        .elencoRam{
+            position: absolute;
+            left: 460px;
+            top: 1450px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .tablaCastRam{
+            position: relative;
+            left: 330px;
+            bottom: 664px;
+            height: 200px;
+        }
+    }
+    .subtituloLista{
+        font-weight: $grosor-fuente-comun;
+        position: relative;
+        left: 300px;
+        top: 450px;
+    }
+    .ul{
+        position: relative;
+        left: 250px;
+        top: 450px;
+    }
+    .mapa{
+        position: relative;
+        left: 100px;
+        top:440px;
+        margin-bottom: 30px;
+    }
+    
+}

@@ -80,3 +80,83 @@
     left: 45vh;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width:768px){
+    .seccionNuestrasObrasUno{
+        display: inline;
+        margin-bottom: 100px;
+        .fotoHamiltonUno{
+            width: 700px;
+            height: 450px;
+            margin-left: $espacio-10px;
+            margin-top: 40px;
+        }
+        .staffAlexander{
+            position: relative;
+            left: 130px;
+            top: 50px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .elencoAlexander{
+            position: relative;
+            left: 490px;
+            top: -198px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .tablaStaffAlexander{
+            position: relative;
+            left: 30px;
+            top: 50px;
+            height: 200px;
+        }
+        .tablaElencoAlexander{
+            position:relative;
+            left: 350px;
+            top: -197px;
+            height: 500px;
+        }
+    }
+    .seccionNuestrasObrasDos{
+        display: inline;
+        margin-bottom: 40px;
+        .fotoHamiltonDos{
+            width: 710px;
+            height: 450px;
+            margin-left: $espacio-10px;
+            margin-top: 40px;
+        }
+        .staffPhillip{
+            position: relative;
+            left: 135px;
+            top: 50px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .elencoPhillip{
+            position: relative;
+            left: 500px;
+            top: -200px;
+            font-weight: $grosor-fuente-comun;
+        }
+        .tablaStaffPhillip{
+            position: relative;
+            left: 30px;
+            top: 70px;
+            height: 200px;
+        }
+        .tablaElencoPhillip{
+            position: relative;
+            left: 350px;
+            top: -177px;
+            height: 500px;
+        }
+                
+    }
+    .videoHamilton{
+        position: relative;
+        left: 10px;
+        width: 700px;
+        height: 500px;
+    }
+      
+    
+}

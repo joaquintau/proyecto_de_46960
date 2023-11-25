@@ -24,6 +24,12 @@
         position: relative;
         left: 170px;
     }
+    .divIndexUno{
+        display: flex;
+    }
+    .divIndexDos{
+        display: flex;
+    }
    
     .navMain{
         padding-bottom: 40px;
@@ -81,5 +87,10 @@
         color:$color-secundario;
         position: relative;
         left: 15px;
+    }
+    .fotoEntrada{
+        width: 320px;
+        height: 180px;
+        margin-left: $espacio-10px;
     }
 }
