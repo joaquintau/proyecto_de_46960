@@ -60,6 +60,9 @@
         text-decoration: $decoracion-ancla;
         color: map-get($map: $estilo-ancla, $key: color);
     }
+    .spanUno{
+        color: $color-terciario;
+    }
 
 @media screen and (max-width: 600px) {
     .titulos{

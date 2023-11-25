@@ -8,15 +8,23 @@ footer{
         column-gap: $espacio-10px;
         margin-top: $espacio-10px;
         margin-bottom: $espacio-10px;
+        animation-name: flotar;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
         .fotoInstagram{
-            width: 25px;
-            height:25px;
+            width: 30px;
+            height:30px;
         }
         .fotoX{
-            @extend .fotoInstagram;
+            width: 30px;
+            height:30px;
+            animation-delay: 0.5s;
         }
         .fotoFacebook{
-            @extend .fotoInstagram;
+            width: 30px;
+            height:30px;
+            animation-delay: 1s;
         }
     }
     .contenidoFooter{
@@ -33,6 +41,10 @@ footer{
         position: fixed;
         right: 80px;
         bottom: 40px;
+        transition: transform 2s;
+    }
+    .wsp:hover{
+        transform: rotate(720deg);
     }
     .fondoWsp{
         background-color: rgb(237, 248, 85);
@@ -49,6 +61,17 @@ footer{
     .contenidoFooter{
         font-size: 1rem;
         height: 25px
+    }
+}
+@keyframes flotar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }
 
