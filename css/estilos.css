@@ -105,7 +105,7 @@ body {
   color: #FBFACD;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .titulos {
     font-size: 3rem;
     font-family: "Montserrat", sans-serif;
@@ -132,9 +132,12 @@ body {
     left: 15px;
   }
   .fotoEntrada {
-    width: 320px;
-    height: 180px;
+    width: 640px;
+    height: 360px;
     margin-left: 10px;
+  }
+  .row {
+    flex-direction: column;
   }
 }
 .subtitulosObras {
@@ -672,6 +675,20 @@ footer .fondoWsp {
   100% {
     transform: translateY(0px);
   }
+}
+.parrafo404 {
+  font-weight: 600;
+  position: relative;
+  left: 820px;
+  margin-top: 50px;
+}
+
+.imagen404 {
+  width: 90vh;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 550px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

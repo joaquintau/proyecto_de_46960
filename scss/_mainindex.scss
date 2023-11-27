@@ -64,7 +64,7 @@
         color: $color-terciario;
     }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .titulos{
             font-size: 3rem;
             font-family: $fuente-principal;
@@ -92,8 +92,12 @@
         left: 15px;
     }
     .fotoEntrada{
-        width: 320px;
-        height: 180px;
+        width: 640px;
+        height: 360px;       
         margin-left: $espacio-10px;
     }
+    .row{
+        flex-direction: column;
+    }
+    
 }
