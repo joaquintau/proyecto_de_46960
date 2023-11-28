@@ -91,13 +91,24 @@
         position: relative;
         left: 15px;
     }
-    .fotoEntrada{
-        width: 640px;
-        height: 360px;       
-        margin-left: $espacio-10px;
-    }
+    
     .row{
         flex-direction: column;
     }
+    .navMain{
+        width: 1200px;
+        .fotoEntrada{
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            right: 20px;       
+            margin-left: $espacio-10px;
+        }
+        .subtituloEntrada{
+            position:relative;
+            right: 50px;
     
-}
+        }
+    }
+    
+    }

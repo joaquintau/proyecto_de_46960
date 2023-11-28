@@ -131,13 +131,22 @@ body {
     position: relative;
     left: 15px;
   }
-  .fotoEntrada {
-    width: 640px;
-    height: 360px;
-    margin-left: 10px;
-  }
   .row {
     flex-direction: column;
+  }
+  .navMain {
+    width: 1200px;
+  }
+  .navMain .fotoEntrada {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    right: 20px;
+    margin-left: 10px;
+  }
+  .navMain .subtituloEntrada {
+    position: relative;
+    right: 50px;
   }
 }
 .subtitulosObras {
@@ -689,6 +698,21 @@ footer .fondoWsp {
   margin-bottom: 50px;
   position: relative;
   left: 550px;
+}
+
+@media screen and (max-width: 768px) {
+  .parrafo404 {
+    font-weight: 600;
+    position: relative;
+    right: 820px;
+  }
+  .imagen404 {
+    width: 90vh;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    right: 550px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
