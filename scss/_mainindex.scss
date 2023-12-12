@@ -89,11 +89,22 @@
         background-color: $color-cuatro;
         color:$color-secundario;
         position: relative;
-        left: 15px;
+        left: 100px;
     }
     
     .row{
         flex-direction: column;
+        width: 100%;
+        .divColumnaUno{
+            width: 550px;
+            position: relative;
+            left: 20px;
+        }
+        .divColumnaDos{
+            width: 550px;
+            position: relative;
+            left: 20px;
+        }
     }
     .navMain{
         width: 1200px;
@@ -101,7 +112,7 @@
             position: relative;
             margin-top: 10px;
             margin-bottom: 10px;
-            right: 20px;       
+            right: -50px;       
             margin-left: $espacio-10px;
         }
         .subtituloEntrada{

@@ -129,10 +129,21 @@ body {
     background-color: #BA94D1;
     color: #27005D;
     position: relative;
-    left: 15px;
+    left: 100px;
   }
   .row {
     flex-direction: column;
+    width: 100%;
+  }
+  .row .divColumnaUno {
+    width: 550px;
+    position: relative;
+    left: 20px;
+  }
+  .row .divColumnaDos {
+    width: 550px;
+    position: relative;
+    left: 20px;
   }
   .navMain {
     width: 1200px;
@@ -141,7 +152,7 @@ body {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px;
-    right: 20px;
+    right: -50px;
     margin-left: 10px;
   }
   .navMain .subtituloEntrada {
@@ -185,21 +196,29 @@ body {
 .cuerpoObrasUno {
   display: flex;
 }
+.cuerpoObrasUno .tablaUno {
+  position: relative;
+  right: 40px;
+}
+.cuerpoObrasUno .tablaDos {
+  position: relative;
+  right: 40px;
+}
 .cuerpoObrasUno .kurtCast {
   position: absolute;
-  left: 1475px;
+  left: 1415px;
   bottom: 480px;
   font-weight: 600;
 }
 .cuerpoObrasUno .staffKurt {
   position: absolute;
-  left: 1365px;
+  left: 1305px;
   bottom: 410px;
   font-weight: 600;
 }
 .cuerpoObrasUno .elencoKurt {
   position: absolute;
-  left: 1680px;
+  left: 1620px;
   bottom: 410px;
   font-weight: 600;
 }
@@ -208,6 +227,7 @@ body {
   width: 1125px;
   height: 750px;
   position: relative;
+  right: 60px;
 }
 
 .fotoTresHeathers {
@@ -235,23 +255,23 @@ body {
 }
 .cuerpoObrasDos .ramCast {
   position: absolute;
-  left: 1475px;
+  left: 1415px;
   top: 1350px;
   font-weight: 600;
 }
 .cuerpoObrasDos .staffRam {
   position: absolute;
-  left: 1365px;
+  left: 1305px;
   top: 1410px;
   font-weight: 600;
 }
 .cuerpoObrasDos .tablaStaffRam {
   position: relative;
-  left: 350px;
+  left: 290px;
 }
 .cuerpoObrasDos .elencoRam {
   position: absolute;
-  left: 1680px;
+  left: 1620px;
   top: 1410px;
   font-weight: 600;
 }
@@ -259,7 +279,7 @@ body {
   width: 345px;
   height: 700px;
   position: relative;
-  left: 350px;
+  left: 290px;
 }
 
 .subtituloLista {

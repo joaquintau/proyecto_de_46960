@@ -30,21 +30,29 @@
 }
 .cuerpoObrasUno{
     display: flex;
+    .tablaUno{
+        position: relative;
+        right: 40px;
+    }
+    .tablaDos{
+        position: relative;
+        right: 40px;
+    }
     .kurtCast{
         position: absolute;
-        left: 1475px;
+        left: 1415px;
         bottom: 480px;
         font-weight: $grosor-fuente-comun;
     }
     .staffKurt{
         position: absolute;
-        left: 1365px;
+        left: 1305px;
         bottom: 410px;
         font-weight: $grosor-fuente-comun;
     }
     .elencoKurt{
         position: absolute;
-        left: 1680px;
+        left: 1620px;
         bottom: 410px;
         font-weight: $grosor-fuente-comun;
     }
@@ -53,18 +61,21 @@
     width: 1125px;
     height: 750px;
     position: relative;
+    right: 60px;
 }
 .fotoTresHeathers{
     height: 735px;
 }
 .seccionTabla {
     display: flex;
+    
 }
 .tablaHeathers{
     background-color: $color-cuatro;
     margin: $espacio-10px;
     text-align: center;
     border: solid 2px black;
+    
     .contenidoTabla{
         border: solid 1px black;
         background-color: $color-terciario;
@@ -75,24 +86,24 @@
     margin-top: 200px;
     .ramCast{
         position: absolute;
-        left: 1475px;
+        left: 1415px;
         top: 1350px;
         font-weight: $grosor-fuente-comun;
     }
     .staffRam{
         position: absolute;
-        left: 1365px;
+        left: 1305px;
         top: 1410px;
         font-weight: $grosor-fuente-comun;
     }
     .tablaStaffRam{
         position: relative;
-        left: 350px;
+        left: 290px;
         
     }
     .elencoRam{
         position: absolute;
-        left: 1680px;
+        left: 1620px;
         top: 1410px;
         font-weight: $grosor-fuente-comun;
     }
@@ -100,7 +111,7 @@
         width: 345px;
         height: 700px;
         position: relative;
-        left: 350px;
+        left: 290px;
     }
 }
 .subtituloLista{
