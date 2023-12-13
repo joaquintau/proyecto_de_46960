@@ -171,7 +171,7 @@ body {
   font-weight: 900px;
   position: relative;
   left: 500px;
-  width: 100px;
+  width: 200px;
 }
 
 .parrafoObras {
@@ -210,6 +210,7 @@ body {
   left: 1415px;
   bottom: 480px;
   font-weight: 600;
+  width: 300px;
 }
 .cuerpoObrasUno .staffKurt {
   position: absolute;
@@ -259,6 +260,7 @@ body {
   left: 1415px;
   top: 1350px;
   font-weight: 600;
+  width: 200px;
 }
 .cuerpoObrasDos .staffRam {
   position: absolute;
