@@ -1,27 +1,35 @@
-.parrafo404{
-    font-weight: $grosor-fuente-comun;
-    position: relative;
-    left: 820px;
-    margin-top: 50px;
-}
-.imagen404{
-    width: 90vh;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    position: relative;
-    left: 550px;
-}
-@media screen and (max-width: 768px) {
+.section404{
     .parrafo404{
         font-weight: $grosor-fuente-comun;
         position: relative;
-        right: 820px;
+        left: 800px;
+        margin-top: 50px;
+        width: 300px;
     }
     .imagen404{
         width: 90vh;
         margin-top: 30px;
         margin-bottom: 50px;
         position: relative;
+        left: 530px;
+    
+}
+}
+@media screen and (max-width: 768px) {
+    .section404{
+        position: relative;
         right: 550px;
+        .parrafo404{
+            font-weight: $grosor-fuente-comun;
+            width: 300px;
+            position: relative;
+            right: 800px;
+        }
+        .imagen404{
+            width: 500px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 140px;
+        }
     }
 }

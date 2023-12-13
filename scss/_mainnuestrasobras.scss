@@ -7,6 +7,7 @@
         margin-left: $espacio-10px;
         margin-top: 40px;
     }
+    
     .staffAlexander{
         position: absolute;
         left: 1225px;
@@ -18,6 +19,7 @@
         left: 1550px;
         top: 545px;
         font-weight: $grosor-fuente-comun;
+        width: 100px;
     }
     .tablaStaffAlexander{
         position: absolute;
@@ -32,6 +34,9 @@
         height: 500px;
     }
     
+    }
+    .subtitulosTabla{
+        width: 100px;
     }
     .alexanderCast{
         font-weight: $grosor-fuente-comun;
@@ -88,9 +93,9 @@
         .fotoHamiltonUno{
             width: 700px;
             height: 450px;
-            margin-left: $espacio-10px;
-            margin-top: 40px;
+            margin-left: 35px;
         }
+        
         .staffAlexander{
             position: relative;
             left: 130px;
@@ -99,7 +104,7 @@
         }
         .elencoAlexander{
             position: relative;
-            left: 490px;
+            left: 510px;
             top: -198px;
             font-weight: $grosor-fuente-comun;
         }
@@ -111,19 +116,23 @@
         }
         .tablaElencoAlexander{
             position:relative;
-            left: 350px;
+            left: 380px;
             top: -197px;
             height: 500px;
         }
     }
+    .subtituloEntrada{
+        width: 200px;
+        position: relative;
+        left: 280px;
+        margin-top: 10px;
+    }
     .seccionNuestrasObrasDos{
         display: inline;
-        margin-bottom: 40px;
         .fotoHamiltonDos{
             width: 710px;
             height: 450px;
-            margin-left: $espacio-10px;
-            margin-top: 40px;
+            margin-left: 35px;
         }
         .staffPhillip{
             position: relative;
@@ -133,7 +142,7 @@
         }
         .elencoPhillip{
             position: relative;
-            left: 500px;
+            left: 520px;
             top: -200px;
             font-weight: $grosor-fuente-comun;
         }
@@ -145,7 +154,7 @@
         }
         .tablaElencoPhillip{
             position: relative;
-            left: 350px;
+            left: 370px;
             top: -177px;
             height: 500px;
         }
@@ -153,7 +162,7 @@
     }
     .videoHamilton{
         position: relative;
-        left: 10px;
+        left: 35px;
         width: 700px;
         height: 500px;
     }

@@ -9,6 +9,7 @@
     font-weight: 900px;
     position: relative;
     left: 500px;
+    width: 100px;
 }
 .parrafoObras{
     width: 900px;
@@ -32,11 +33,11 @@
     display: flex;
     .tablaUno{
         position: relative;
-        right: 40px;
+        right: 60px;
     }
     .tablaDos{
         position: relative;
-        right: 40px;
+        right: 60px;
     }
     .kurtCast{
         position: absolute;
@@ -61,7 +62,7 @@
     width: 1125px;
     height: 750px;
     position: relative;
-    right: 60px;
+    right: 50px;
 }
 .fotoTresHeathers{
     height: 735px;
@@ -167,39 +168,41 @@
         display: inline;
         .carousel{
             width: 1125px;
-            height: 350px;
+            height: 465px;
             position: relative;
             left: 0px;
             .fotoTresHeathers{
-                height: 345px;
+                height: 465px;
             }
         }
         .kurtCast{
             position: absolute;
             left: 300px;
-            bottom: -200px;
+            bottom: -300px;
             font-weight: $grosor-fuente-comun;
+            width: 200px;
             }
             .staffKurt{
                 position: absolute;
                 left: 160px;
-                bottom: -250px;
+                bottom: -350px;
                 font-weight: $grosor-fuente-comun;
             }
             .elencoKurt{
                 position: absolute;
-                left: 460px;
-                bottom: -250px;
+                left: 490px;
+                bottom: -350px;
                 font-weight: $grosor-fuente-comun;
             }
         .tablaUno{
             position: relative;
-            top: 164px;
+            top: 124px;
             left: 50px;
         }
         .tablaDos{
             position: relative;
-            left: 330px;
+            left: 360px;
+            top: -39px;
         }
     }
     .cuerpoObrasDos{
@@ -208,31 +211,32 @@
         .ramCast{
             position: absolute;
             left: 300px;
-            top: 1400px;
+            top: 1500px;
             font-weight: $grosor-fuente-comun;
+            width: 200px;
         }
         .staffRam{
             position: absolute;
             left: 160px;
-            top: 1450px;
+            top: 1550px;
             font-weight: $grosor-fuente-comun;
         }
         .tablaStaffRam{
             position: relative;
             left: 50px;
-            bottom: 500px;
+            bottom: 650px;
             
         }
         .elencoRam{
             position: absolute;
             left: 460px;
-            top: 1450px;
+            top: 1550px;
             font-weight: $grosor-fuente-comun;
         }
         .tablaCastRam{
             position: relative;
-            left: 330px;
-            bottom: 664px;
+            left: 356px;
+            bottom: 813px;
             height: 200px;
         }
     }
@@ -240,18 +244,20 @@
         font-weight: $grosor-fuente-comun;
         position: relative;
         left: 300px;
-        top: 450px;
+        top: 400px;
+        width: 100px;
     }
     .ul{
         position: relative;
         left: 250px;
-        top: 450px;
+        top: 420px;
+        width: 200px;
     }
     .mapa{
         position: relative;
         left: 100px;
         top:440px;
-        margin-bottom: 30px;
+        margin-bottom: 130px;
     }
     
 }

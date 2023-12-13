@@ -171,6 +171,7 @@ body {
   font-weight: 900px;
   position: relative;
   left: 500px;
+  width: 100px;
 }
 
 .parrafoObras {
@@ -198,11 +199,11 @@ body {
 }
 .cuerpoObrasUno .tablaUno {
   position: relative;
-  right: 40px;
+  right: 60px;
 }
 .cuerpoObrasUno .tablaDos {
   position: relative;
-  right: 40px;
+  right: 60px;
 }
 .cuerpoObrasUno .kurtCast {
   position: absolute;
@@ -227,7 +228,7 @@ body {
   width: 1125px;
   height: 750px;
   position: relative;
-  right: 60px;
+  right: 50px;
 }
 
 .fotoTresHeathers {
@@ -338,39 +339,41 @@ body {
   }
   .cuerpoObrasUno .carousel {
     width: 1125px;
-    height: 350px;
+    height: 465px;
     position: relative;
     left: 0px;
   }
   .cuerpoObrasUno .carousel .fotoTresHeathers {
-    height: 345px;
+    height: 465px;
   }
   .cuerpoObrasUno .kurtCast {
     position: absolute;
     left: 300px;
-    bottom: -200px;
+    bottom: -300px;
     font-weight: 600;
+    width: 200px;
   }
   .cuerpoObrasUno .staffKurt {
     position: absolute;
     left: 160px;
-    bottom: -250px;
+    bottom: -350px;
     font-weight: 600;
   }
   .cuerpoObrasUno .elencoKurt {
     position: absolute;
-    left: 460px;
-    bottom: -250px;
+    left: 490px;
+    bottom: -350px;
     font-weight: 600;
   }
   .cuerpoObrasUno .tablaUno {
     position: relative;
-    top: 164px;
+    top: 124px;
     left: 50px;
   }
   .cuerpoObrasUno .tablaDos {
     position: relative;
-    left: 330px;
+    left: 360px;
+    top: -39px;
   }
   .cuerpoObrasDos {
     display: inline;
@@ -379,48 +382,51 @@ body {
   .cuerpoObrasDos .ramCast {
     position: absolute;
     left: 300px;
-    top: 1400px;
+    top: 1500px;
     font-weight: 600;
+    width: 200px;
   }
   .cuerpoObrasDos .staffRam {
     position: absolute;
     left: 160px;
-    top: 1450px;
+    top: 1550px;
     font-weight: 600;
   }
   .cuerpoObrasDos .tablaStaffRam {
     position: relative;
     left: 50px;
-    bottom: 500px;
+    bottom: 650px;
   }
   .cuerpoObrasDos .elencoRam {
     position: absolute;
     left: 460px;
-    top: 1450px;
+    top: 1550px;
     font-weight: 600;
   }
   .cuerpoObrasDos .tablaCastRam {
     position: relative;
-    left: 330px;
-    bottom: 664px;
+    left: 356px;
+    bottom: 813px;
     height: 200px;
   }
   .subtituloLista {
     font-weight: 600;
     position: relative;
     left: 300px;
-    top: 450px;
+    top: 400px;
+    width: 100px;
   }
   .ul {
     position: relative;
     left: 250px;
-    top: 450px;
+    top: 420px;
+    width: 200px;
   }
   .mapa {
     position: relative;
     left: 100px;
     top: 440px;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
   }
 }
 .seccionNuestrasObrasUno {
@@ -444,6 +450,7 @@ body {
   left: 1550px;
   top: 545px;
   font-weight: 600;
+  width: 100px;
 }
 .seccionNuestrasObrasUno .tablaStaffAlexander {
   position: absolute;
@@ -456,6 +463,10 @@ body {
   left: 1420px;
   top: 570px;
   height: 500px;
+}
+
+.subtitulosTabla {
+  width: 100px;
 }
 
 .alexanderCast {
@@ -517,8 +528,7 @@ body {
   .seccionNuestrasObrasUno .fotoHamiltonUno {
     width: 700px;
     height: 450px;
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 35px;
   }
   .seccionNuestrasObrasUno .staffAlexander {
     position: relative;
@@ -528,7 +538,7 @@ body {
   }
   .seccionNuestrasObrasUno .elencoAlexander {
     position: relative;
-    left: 490px;
+    left: 510px;
     top: -198px;
     font-weight: 600;
   }
@@ -540,19 +550,23 @@ body {
   }
   .seccionNuestrasObrasUno .tablaElencoAlexander {
     position: relative;
-    left: 350px;
+    left: 380px;
     top: -197px;
     height: 500px;
   }
+  .subtituloEntrada {
+    width: 200px;
+    position: relative;
+    left: 280px;
+    margin-top: 10px;
+  }
   .seccionNuestrasObrasDos {
     display: inline;
-    margin-bottom: 40px;
   }
   .seccionNuestrasObrasDos .fotoHamiltonDos {
     width: 710px;
     height: 450px;
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 35px;
   }
   .seccionNuestrasObrasDos .staffPhillip {
     position: relative;
@@ -562,7 +576,7 @@ body {
   }
   .seccionNuestrasObrasDos .elencoPhillip {
     position: relative;
-    left: 500px;
+    left: 520px;
     top: -200px;
     font-weight: 600;
   }
@@ -574,13 +588,13 @@ body {
   }
   .seccionNuestrasObrasDos .tablaElencoPhillip {
     position: relative;
-    left: 350px;
+    left: 370px;
     top: -177px;
     height: 500px;
   }
   .videoHamilton {
     position: relative;
-    left: 10px;
+    left: 35px;
     width: 700px;
     height: 500px;
   }
@@ -705,33 +719,37 @@ footer .fondoWsp {
     transform: translateY(0px);
   }
 }
-.parrafo404 {
+.section404 .parrafo404 {
   font-weight: 600;
   position: relative;
-  left: 820px;
+  left: 800px;
   margin-top: 50px;
+  width: 300px;
 }
-
-.imagen404 {
+.section404 .imagen404 {
   width: 90vh;
   margin-top: 30px;
   margin-bottom: 50px;
   position: relative;
-  left: 550px;
+  left: 530px;
 }
 
 @media screen and (max-width: 768px) {
-  .parrafo404 {
-    font-weight: 600;
-    position: relative;
-    right: 820px;
-  }
-  .imagen404 {
-    width: 90vh;
-    margin-top: 30px;
-    margin-bottom: 50px;
+  .section404 {
     position: relative;
     right: 550px;
+  }
+  .section404 .parrafo404 {
+    font-weight: 600;
+    width: 300px;
+    position: relative;
+    right: 800px;
+  }
+  .section404 .imagen404 {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 140px;
   }
 }
 
